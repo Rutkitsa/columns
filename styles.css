@@ -1,0 +1,134 @@
+body{
+    min-width: 1920px;
+}
+p,h2,a{
+    font-family: Arial;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: left;
+    padding-top: 16px;
+}
+
+.sidebar{
+    display: inline-block;
+    vertical-align: top;
+    width: 343px;
+    height: 1080px;
+    background-color: #0e1649;
+    padding-left: 64px; 
+}
+
+.logo{
+    margin-bottom: 40px;
+}
+
+.sidebar a{
+    display: block;
+    margin-top: 24px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: normal;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar a.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.main-container{
+    display: inline-block;
+    vertical-align: top;
+    width:1577px;
+    height:1080px;
+    background-color: #fcfaf7;
+    
+   
+}
+
+.center-container{
+    position: relative;
+   width:1577px;
+    height:821px;
+    background-image: url("./assets/woman-img.png");
+    
+    
+}
+
+.center-text{
+    width: 581px;
+    height: 347px;
+    position:absolute;
+    top: 238px;
+    right: 821px;
+   
+    
+}
+
+
+.info-rectangle{
+    display: inline-block;
+    width: 33.33%;
+    height: 259px;
+    padding: 32px 64px 32px 32px;
+      
+} 
+
+
+h1{
+    font-family: Times New Roman;
+    font-size: 72px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.44px;
+    text-align: left;
+    color: #0e1649;
+}
+
+
+h2{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  color: #1c1c1c; 
+  
+}
+
+.orange-btn{
+    width: 157px;
+    height: 56px;
+    align-items: center;
+    margin-top: 16px;
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: #ff9f00;
+    border: none; 
+    font-family: Assistant;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  
+}
+
+.pink{
+    background-color: #ff5288;
+   
+}
+
+.peach{
+    background-color: #ff7748;
+}
+
+.orange{
+    background-color: #ff9f00; 
+}
