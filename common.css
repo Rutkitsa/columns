@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #0e1649;
+    --secondary-color: #ff9f00;
+    --black-color: #1c1c1c;
+    --white-color: #ffff;
+    --small-margin: 16px;
+}
+
+p,h2,a, li{
+    font-family: Arial;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: left;
+    padding-top: 16px;
+    color: var(--black-color)
+}
+
+
+h1 {
+    font-family: Times New Roman;
+    font-size: 72px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.44px;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+button {
+    padding: 16px 32px;
+    border-radius: 12px;
+    margin-top: var(--small-margin);
+    background-color: var(--secondary-color);
+    font-family: Assistant;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+.subtitle {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: var(--black-color);
+}
+
+hr{
+    margin-top: 39px;
+    margin-bottom: 40px;
+    height: 1px;
+    align-self: stretch;
+    transform: rotate(-360deg);
+    opacity: 0.2;
+    background-color: #0e1649;
+}

@@ -1,14 +1,19 @@
 body{
     min-width: 1920px;
 }
-p,h2,a{
-    font-family: Arial;
-    font-size: 18px;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    text-align: left;
-    padding-top: 16px;
+
+
+.pink{
+    background-color: #ff5288;
+   
+}
+
+.peach{
+    background-color: #ff7748;
+}
+
+.orange{
+    background-color: #ff9f00; 
 }
 
 .sidebar{
@@ -118,17 +123,4 @@ h2{
     text-transform: uppercase;
     color: #fff;
   
-}
-
-.pink{
-    background-color: #ff5288;
-   
-}
-
-.peach{
-    background-color: #ff7748;
-}
-
-.orange{
-    background-color: #ff9f00; 
 }

@@ -1,0 +1,50 @@
+header {
+    height: 128px;
+    padding-left: 64px;
+    padding-top: 32px;
+    background-color: var(--primary-color);
+    
+  }
+
+  .main-container{
+   width:1920px;
+   height: auto;
+  }
+
+  .title{
+    margin: 64px 258px 64px 64px;
+    font-family: Courier New;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: var(--primary-color);
+
+  }
+  
+
+  .side-column{
+      display: inline-block;
+      vertical-align: top;
+      width:25%;
+      background-color: var(--white-color);
+  }
+
+  .left-column{
+      padding-left: 64px;
+  }
+
+  .right-column{
+    padding-right: 64px;
+}
+
+  .middle-column{
+    display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+    vertical-align: top;
+    width:50%;
+    height: 100vh;
+    background-color:var(--white-color);
+    
+}
