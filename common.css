@@ -1,9 +1,11 @@
 :root {
     --primary-color: #0e1649;
     --secondary-color: #ff9f00;
+    --red-orange-color:#ff7748;
     --black-color: #1c1c1c;
     --white-color: #ffff;
     --small-margin: 16px;
+    --middle-margin: 24px;
 }
 
 p,h2,a, li{
@@ -16,6 +18,7 @@ p,h2,a, li{
     padding-top: 16px;
     color: var(--black-color)
 }
+
 
 
 h1 {
@@ -48,6 +51,19 @@ button {
     text-transform: uppercase;
 }
 
+.small-title {  
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-color);
+    text-transform:uppercase;
+    padding-top: 0px;
+}
 
 .subtitle {
     font-family: Arial;
@@ -68,5 +84,37 @@ hr{
     align-self: stretch;
     transform: rotate(-360deg);
     opacity: 0.2;
-    background-color: #0e1649;
+    background-color: var(--primary-color);
+}
+
+a{
+   color:var(--red-orange-color);
+}
+
+.logo{
+    display: inline-block;
+}
+
+.menu{
+    /*display: inline-block;*/
+    position: fixed;
+    right:64px;
+    top: 32px;
+    
+}
+
+.menu a{
+    display: inline-block;
+    padding: 16px;
+    margin-left: var(--middle-margin);
+    font-family: Assistant;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white-color); 
+    text-decoration: none; 
 }

@@ -1,4 +1,7 @@
 header {
+    position: fixed;
+    top:0px;
+    width:1920px;
     height: 128px;
     padding-left: 64px;
     padding-top: 32px;
@@ -7,12 +10,15 @@ header {
   }
 
   .main-container{
-   width:1920px;
-   height: auto;
+   min-width: 1920px;
+   margin-top: 128px;
+  
   }
 
   .title{
-    margin: 64px 258px 64px 64px;
+    margin-left: 64px;
+    margin-bottom: 64px;
+    padding-top: 64px;
     font-family: Courier New;
     font-size: 24px;
     font-weight: bold;
