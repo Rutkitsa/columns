@@ -54,3 +54,8 @@ header {
     background-color:var(--white-color);
     
 }
+
+
+img{
+  padding-bottom: var(--small-margin);
+}
